@@ -5,16 +5,12 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { FaSearch } from 'react-icons/fa';
 
-
-
 const Search = () => {
-
     const [fromData, setFromData] = useState({
         selectedName: "",
         selectedType: "",
         showSearch: false,
     });
-
 
     const handleChange = (e) => {
         const searchName = e.target.name;
@@ -33,10 +29,7 @@ const Search = () => {
             selectedName: searchName,
             selectedType: searchType,
             showSearch: true,
-
-
         })
-
     }
 
     const [from, setFrom] = useState(false);
@@ -46,7 +39,7 @@ const Search = () => {
     const [startDate, setStartDate] = useState(new Date());
 
     return (
-        <div className="container search">
+        <div className="search">
             <form>
                 <div class="nav-scroller py-1 mb-2">
                     <nav class="nav">
@@ -64,8 +57,6 @@ const Search = () => {
             </form>
             {
                 fromData.showSearch &&
-
-
                 <form class="row row-cols-lg-auto g-3 align-items-center">
                     <div class="col-12 search__input">
                         <label for="from">from: </label>
@@ -101,13 +92,10 @@ const Search = () => {
                     </div>
 
                     <div class="col-12 search__input">
-                    {/* <FaSearch className="search__icon" size="20"/> */}
-                        <p className="button"><FaSearch className="search__icon" size="20"/> <span className="search_text">Search</span></p>
+                        <p className="button"><FaSearch className="search__icon" size="20" /> <span className="search_text">Search</span></p>
                     </div>
                 </form>
             }
-
-
         </div>
     );
 };

@@ -31,6 +31,7 @@ select:focus,
 .search__type label {
   text-transform: uppercase;
   padding: 5px;
+  font-size: 12px;
 }
 
 .search__input {
