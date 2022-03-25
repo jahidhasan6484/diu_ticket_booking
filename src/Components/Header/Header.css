@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.header{
+border-bottom: 1px solid rgb(226, 226, 226)
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo__icon {
+    transition: 0.3s;
+}
+
+.logo:hover .logo__icon {
+    transform: translate(0, -5px);
+}
+
+.logo__bus {
+    font-size: 2rem;
+    text-transform: lowercase;
+    font-family: 'Pacifico', cursive;
+}
+
