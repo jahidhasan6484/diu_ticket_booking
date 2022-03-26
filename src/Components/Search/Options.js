@@ -4,6 +4,7 @@ import './Options.css';
 const Options = () => {
     return (
         <>
+        <option selected>Open this select menu</option>
             <option value="Sobhanbag">Sobhanbag</option>
             <option value="Shyamoli Square">Shyamoli Square</option>
             <option value="Technical Mor">Technical Mor</option>
