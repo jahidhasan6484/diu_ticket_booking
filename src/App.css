@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+.section_design {
+  padding: 5rem 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.brown {
+  background: #f7f2ee;
+}
+
+.section_title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  color: #a09f9f;
+}

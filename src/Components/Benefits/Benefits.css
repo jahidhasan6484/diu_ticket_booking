@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+    padding: 5px 0;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+li:hover {
+    letter-spacing: 2px;
+    padding-left: 15px;
+    list-style: lower-roman;
+    background: #c9b9ad;
+    border-radius: 7px;
+}
