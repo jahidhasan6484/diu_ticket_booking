@@ -1,0 +1,24 @@
+.pricing_details p {
+    color: #9b9898;
+}
+
+.package_name {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    
+}
+
+.package_price {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.pricing {
+    width: 90%;
+    margin: auto;
+}
+
+button {
+    font-size: 10px;
+}

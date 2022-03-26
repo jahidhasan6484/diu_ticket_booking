@@ -121,7 +121,7 @@ const Search = () => {
             {
                 fromData.showSearch &&
                 <form class="row align-items-center">
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-sm-4 mt-2">
                     <label for="floatingSelect">From</label>
                         {
                             to ? <select class="form-select" id="floatingSelect" aria-label="Floating label select example">

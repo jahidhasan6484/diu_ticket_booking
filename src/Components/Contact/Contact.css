@@ -1,0 +1,26 @@
+.contact .col-lg-4 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contact .col-lg-4 img {
+  width: 140px;
+  height: 140px;
+  padding: 5px;
+}
+
+.contact .col-lg-4 h2 {
+  margin: 15px 0;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.contact .col-lg-4 p {
+  line-height: 0.8;
+  color: #9b9898;
+}
+
+.email {
+  cursor: pointer;
+  text-decoration: underline;
+}
