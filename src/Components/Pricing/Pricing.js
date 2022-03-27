@@ -5,7 +5,7 @@ const Pricing = () => {
     return (
         <div className="section_design">
             <div class="container">
-                <h1 className="section_title">Pricing</h1>
+                <h1 className="section_title">Pricing &amp; packages</h1>
                 <div class="row text-center pricing">
                     <div class="col-lg-4">
                         <div class="card mb-4 rounded-3 shadow-sm">
